@@ -1,6 +1,6 @@
 //task #1
 
-let user = {}; //object literal;
+const user = {}; //object literal;
 user.name = "John"; //adding a property;  
 user.surname = "Smith";
 user.name = "Pete"; 
