@@ -1,5 +1,5 @@
 "use strict";
-let action = prompt("What kind of operation do you want to perform? (add,sub,mult, div)");
+const action = prompt("What kind of operation do you want to perform? (add,sub,mult, div)");
 const a = +prompt("The first number?");
 const b = +prompt("The second number?");
 

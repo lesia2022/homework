@@ -1,6 +1,6 @@
 //task #1
 
-let user = {}; //object literal;
+const user = {}; //object literal;
 user.name = "John"; //adding a property;  
 user.surname = "Smith";
 user.name = "Pete"; 
@@ -28,13 +28,13 @@ user = {}; /* ошибка TypeError: Assignment to constant variable.
 
 
 //task #3
-let salaries = {
+const salaries = {
   John: 100,
   Ann: 160,
   Pete: 130
 };
 
-let sum = Object.values(salaries).reduce((acc, value) => acc + value, 0);
+const sum = Object.values(salaries).reduce((acc, value) => acc + value, 0);
 
 console.log(sum); // 390
 
